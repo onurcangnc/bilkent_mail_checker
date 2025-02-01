@@ -1,6 +1,9 @@
 # Bilkent Webmail Account Checker
 
-This Python script checks the validity of Bilkent University email accounts by attempting to log in using IMAP authentication. It reads a list of email-password combinations from a `.txt` file and tests them against Bilkent's mail server.
+A Python script checking the validity of Bilkent University email accounts by attempting to log in using IMAP authentication. It reads a list of email-password combinations from a `.txt` file and tests them against Bilkent's mail server.
+
+![bilko](./bilkent.png)
+
 
 ## Features
 ✅ Reads email-password pairs from `accounts.txt`  

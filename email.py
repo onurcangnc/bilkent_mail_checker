@@ -29,8 +29,8 @@ def check_accounts():
                 print(f"\033[91m[✗] Login failed for {email}!\033[0m")  # Red color
 
             # **30-second cooldown**
-            print("[!] Waiting for 30 seconds...\n")
-            time.sleep(30)
+            print("[!] Waiting for 3 seconds...\n")
+            time.sleep(3)
 
     except FileNotFoundError:
         print(f"[!] Error: {input_file} not found. Please check the file path.")
